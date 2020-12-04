@@ -5,7 +5,6 @@ pipeline {
     stage('Clean') {
       steps {
         echo 'Cleaning stage'
-        bat 'mvn clean'
       }
     }
     stage('Install') {
